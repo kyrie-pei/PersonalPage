@@ -1,48 +1,157 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
-    <link href="css/style.css" rel="stylesheet" type="text/css">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta name="author" content="Chris Mills">
-    <meta name="description" content="This my personal Homepage, you can learn more about me and you can contect to me through the Link.">
-
-    <title>My Homepage</title>
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kyrie Pei">
+    <meta name="description" content="Kyrie Pei's Personal Homepage - 炫酷的玻璃拟态机械风格个人主页">
+    <title>Kyrie Pei | Personal Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-     <img class="name" src="img/name.jpg">
-     <img class="photo" src="img/photo.jpg">
-     <hr class="line1">
-     <hr class="line2">
-     <hr class="line3">
-     <hr class="line4">
+    <!-- 机械背景层 -->
+    <div class="mechanical-bg">
+        <div class="gear gear-1"></div>
+        <div class="gear gear-2"></div>
+        <div class="gear gear-3"></div>
+        <div class="gear gear-4"></div>
+        <div class="gear gear-5"></div>
+        <div class="gear gear-6"></div>
+        <div class="circuit-line circuit-1"></div>
+        <div class="circuit-line circuit-2"></div>
+        <div class="circuit-line circuit-3"></div>
+    </div>
 
+    <!-- 导航栏 -->
+    <nav class="glass-nav">
+        <div class="nav-logo">KP</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">HOME</a></li>
+            <li><a href="#about" class="nav-link">ABOUT</a></li>
+            <li><a href="#work" class="nav-link">MY WORK</a></li>
+            <li><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
 
-     <ul class="home">
-     <li><a href="#">HOME</a></li>
-     </ul>
-     <ul class="about">
-     <li><a href="#">ABOUT</a></li>
-     </ul>
-     <ul class="work">
-     <li><a href="#">MY WORK</a></li>
-     </ul>
-     <ul class="contact">
-     <li><a href="#">CONTACT</a></li>
-     </ul>
+    <!-- 主内容区 -->
+    <main>
+        <!-- HOME Section -->
+        <section id="home" class="section home-section">
+            <div class="glass-card hero-card">
+                <h1 class="hero-title">
+                    <span class="typing-text"></span>
+                    <span class="cursor">|</span>
+                </h1>
+                <p class="hero-subtitle">Developer · Creator · Innovator</p>
+                <div class="hero-buttons">
+                    <a href="#work" class="btn btn-primary">查看作品</a>
+                    <a href="#contact" class="btn btn-secondary">联系我</a>
+                </div>
+            </div>
+        </section>
 
-   <div class="welcome">
-     <p class="welcome">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WELCOME TO MY WORLD...</p>
-     <img src="img/welcome.jpg" width="600" height="400" alt="My test image">
-   </div>
+        <!-- ABOUT Section -->
+        <section id="about" class="section">
+            <div class="glass-card about-card fade-in">
+                <h2 class="section-title">ABOUT ME</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>
+                            你好！我是 Kyrie Pei，一名充满激情的开发者和创造者。
+                            我热爱技术，专注于构建优雅、高效的解决方案。
+                        </p>
+                        <p>
+                            无论是前端开发、后端架构，还是创意设计，
+                            我都追求极致的用户体验和代码质量。
+                        </p>
+                        <p>
+                            在这个快速变化的数字世界里，我始终保持学习，
+                            探索新技术，创造有价值的作品。
+                        </p>
+                    </div>
+                    <div class="about-skills">
+                        <h3>技能栈</h3>
+                        <div class="skills-grid">
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">HTML/CSS</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Vue</span>
+                            <span class="skill-tag">Git</span>
+                            <span class="skill-tag">Docker</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-     <p class="site">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...OR AT LEAST MY WEBSITE</p>
+        <!-- WORK Section -->
+        <section id="work" class="section">
+            <div class="glass-card work-card fade-in">
+                <h2 class="section-title">MY WORK</h2>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">🚀</div>
+                        <h3>项目一</h3>
+                        <p>一个创新的技术解决方案，展示了前端开发的最佳实践。</p>
+                        <a href="#" class="project-link">了解更多 →</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">💡</div>
+                        <h3>项目二</h3>
+                        <p>智能化的工具应用，提升工作效率，简化复杂流程。</p>
+                        <a href="#" class="project-link">了解更多 →</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">🎨</div>
+                        <h3>项目三</h3>
+                        <p>创意设计作品，融合技术与艺术，打造独特体验。</p>
+                        <a href="#" class="project-link">了解更多 →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<footer>
-  <p>© Copyright 2018 Kyrie Pei</p>
-</footer>
-    
-<script src="js/main.js"></script>
+        <!-- CONTACT Section -->
+        <section id="contact" class="section">
+            <div class="glass-card contact-card fade-in">
+                <h2 class="section-title">CONTACT ME</h2>
+                <div class="contact-content">
+                    <p class="contact-text">
+                        有项目合作、技术交流，或者只是想聊聊？
+                        随时联系我！
+                    </p>
+                    <div class="contact-links">
+                        <a href="mailto:your.email@example.com" class="contact-link">
+                            <span class="link-icon">📧</span>
+                            your.email@example.com
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="link-icon">💻</span>
+                            GitHub
+                        </a>
+                        <a href="#" class="contact-link">
+                            <span class="link-icon">🔗</span>
+                            LinkedIn
+                        </a>
+                    </div>
+                    <div class="contact-form">
+                        <input type="text" placeholder="你的名字" class="form-input">
+                        <input type="email" placeholder="你的邮箱" class="form-input">
+                        <textarea placeholder="你的消息..." class="form-textarea"></textarea>
+                        <button class="btn btn-primary">发送消息</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="glass-footer">
+        <p>© 2024 Kyrie Pei. Built with passion & code.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
